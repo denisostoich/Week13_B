@@ -1,0 +1,33 @@
+{
+  "name": "week13_b",
+  "version": "0.0.1",
+  "description": "Automated Tests",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.5.3"
+  },
+  "devDependencies": {
+    "@wdio/jasmine-framework": "^7.5.3",
+    "@wdio/local-runner": "^7.5.5",
+    "@wdio/spec-reporter": "^7.5.3",
+    "@wdio/sync": "^7.5.3",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js --spec automatedTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisostoich/Week13_B.git"
+  },
+  "author": "Denis Ostoich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisostoich/Week13_B/issues"
+  },
+  "homepage": "https://github.com/denisostoich/Week13_B#readme"
+}
